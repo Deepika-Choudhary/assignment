@@ -1,0 +1,74 @@
+body{
+    background-image: url('bg-cover.png');
+    font-family:'Varta';
+}
+
+.wheels{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2fr;
+}
+
+/* .data{
+    display: inline;
+    width: 10%;
+} */
+
+.data{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.data img{
+    height: 20vh; 
+    margin-left: 3rem;
+    margin-top: 10rem;
+    
+}
+
+.data h4,p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wheels i{
+    text-align: center;
+    margin-top: 13.5rem;
+}
+
+/* button{
+    margin-top: 15rem;
+    margin-left: 5rem; 
+    height: 10vh;
+    width: 5vh;
+    border: none;
+} */
+
+a:hover,
+a:active{
+    border: 2px solid grey;
+    background-image: url('wheel-bg.jpg');
+    text-decoration: none;
+    height: 75vh;
+    /* margin-top: 10rem; */
+    /* padding-bottom: 3rem; */
+    /* padding-top: 0; */
+    /* font-size: 2rem; */
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+img:hover,img:active,
+h4:hover,h4:active,
+p:hover,p:active
+{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
